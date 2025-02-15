@@ -1,0 +1,39 @@
+.card {
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 10% solid;
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+div {
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+body {
+    margin: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    background: ghostwhite;
+    font-style: arial;
+    padding-top: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+}

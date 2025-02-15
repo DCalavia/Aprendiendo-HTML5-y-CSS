@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 0, 0);
+    margin: 20px;
+}
+
+.new-box {
+    width: 100px;
+    height: 100px;
+    background: #03bbdd;
+    margin: 20px;
+}
+
+.new-box2 {
+    width: 100px;
+    height: 100px;
+    background: hsl(210, 40%, 50%);
+    margin: 20px;
+}
