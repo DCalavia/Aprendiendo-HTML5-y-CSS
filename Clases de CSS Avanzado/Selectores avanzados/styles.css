@@ -1,0 +1,24 @@
+/*Selector de atributo*/
+img[src="IMG_4844.JPG"] {
+    width: 100%;
+}
+
+/*Selector descendiente*/
+ul > li {
+    color: #666;
+}
+
+/*Selector por hijo directo*/
+li > em {
+    color: #f00;
+}
+
+/*Selector de hermano adyacente*/
+h1 + p {
+    color: blue;
+}
+
+/*Selector de hermanos generales*/
+h1 ~ p {
+    color: blue;
+}
