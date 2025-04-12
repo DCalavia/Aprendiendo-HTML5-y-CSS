@@ -1,0 +1,11 @@
+#titulo { /* Especifidad 1.0.0 (Muy importante) */
+    color: green;
+}
+
+.titulo { /* Especifidad 0.1.0 (Importante)*/
+    color: red;
+}
+
+h1 { /* Especifidad 0.0.1 (No muy importante)*/
+    color: blue !important /* La mas importante de todas las especificidades */
+}
