@@ -1,0 +1,22 @@
+body {
+    color: blue
+}
+
+div {
+    color: red;
+    font-family: sans-serif;
+}
+
+h1 {
+    /* INITIAL - Restaura la propiedad a su valor inicial por defecto del navegador, como si no hubiera aplicado ningun estilo. */
+    color: initial;
+
+    /* INHERIT - Hereda el valor de la propiedad desde el elemento padre. */
+    font-family: inherit;
+
+    /* UNSET - Si la propiedad es heredable, actua como INHERIT; si no lo es, actua como INITIAL. */
+    color: unset;
+
+    /* REVERT - Revierte la propiedad al valor definido por el navegador o por la hoja de estilos del usuario (Ignora las reglas personalizadas). */
+    color: revert;
+}
