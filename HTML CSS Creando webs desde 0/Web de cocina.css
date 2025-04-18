@@ -1,3 +1,13 @@
+.header {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #9E9999);
+}
+
 .logo-texto {
     display: flex;
     align-items: center; /* centra verticalmente */
@@ -19,6 +29,6 @@
 }
 
 .foto_empresa {
-    width: 300px;
+    width: 100%;
     height: 100%;
 }
