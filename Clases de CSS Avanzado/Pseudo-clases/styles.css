@@ -1,0 +1,23 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+h1:hover {  /*Permite que el texto cambie de color al pasar el mouse (Mouse Hover).*/
+    color: #000;
+    background-color: #ccc;
+}
+
+h1:active { /*Definir el color del elemento cuando hacemos clic en él.*/
+    color: #fff;
+    background-color: #999;
+}
+
+li:first-child { /*Seleccionando el primer LI */
+    color: red;
+}
+
+li:last-child { /*Seleccionando el uktimo LI */
+    color: blue;
+}
